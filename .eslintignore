@@ -1,4 +1,4 @@
-# System Files
+# System files
 .DS_Store
 Thumbs.db
 
@@ -8,8 +8,6 @@ Thumbs.db
 
 # Node
 node_modules
-npm-debug.log
-yarn-error.log
 
 # Build
 build
@@ -17,14 +15,12 @@ out
 dist
 public
 
-# Optional npm cache directory
-.npm
 
-# Optional eslint cache
-.eslintcache
-
-# tests
-coverage
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Custom scripts
 bin
